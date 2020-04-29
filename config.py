@@ -1,3 +1,3 @@
-# My PostgreSQL password
+# PostgreSQL password
 
-password = "Sparsh@120"
+password = "YOUR PASSWORD HERE"

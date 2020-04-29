@@ -1,4 +1,4 @@
--- Both tables can't have a primary keys as their country column doesn't have unique values
+-- Both tables can't have a single column as their primary key as their country column doesn't have unique values
 -- Both tables can't have a foreign keys as well due to unique key constraint
 -- Therefore, created composite primary keys with country and year for the world_happiness table
 DROP TABLE world_happiness
@@ -16,6 +16,7 @@ CREATE TABLE suicide (
 CREATE TABLE world_happiness (
 	"Country" VARCHAR,
 	"Year" INT,
+	"Log GDP per capita" FLOAT,
 	"Life Ladder" FLOAT,
 	"Social support" FLOAT,
 	"Healthy life expectancy at birth" FLOAT,
